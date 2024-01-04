@@ -49,7 +49,8 @@ double nature = 80;
 double step = 1;
 //----------------------------------------
 ```
-背景音乐及其音量大小在RUN_Main.cpp中，可替换为自己的音频路径，请确保相对路径或绝对路径正确//ps:不支持网易云下载的MP3格式（别问我怎么知道的（）
+背景音乐及其音量大小在RUN_Main.cpp中，可替换为自己的音频路径，请确保相对路径或绝对路径正确
+//ps:不支持网易云下载的MP3格式（~~别问我怎么知道的（）~~
 ```
 mciSendStringW(L"open resources//music//Auld_Lang_Syne.mp3 alias bgm", NULL, 0, NULL);
 mciSendStringW(L"setaudio bgm volume to 280", NULL, 0, NULL);
