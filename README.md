@@ -61,11 +61,10 @@ wstring volume[3] = { L"180",L"600",L"80" };
 ```
 
 # 游戏界面截图：
-<div  align="center">
-<img src="https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9" width = "533 height = "300" alt="主菜单" align=center />
 
-<img src="https://github.com/CC-Ming/Story/assets/151418966/c7e848f9-6e95-421a-a830-524af9f52222" width = "533" height = "300" alt="游戏胜利界面" align=center />
+<img src="https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9" width = "600" height = "337" alt="主菜单" align=center />
 
-<img src="https://github.com/CC-Ming/Story/assets/151418966/d30a5c57-d504-4b55-b07e-09c2f39df621" width = "533" height = "300" alt="信封界面" align=center />
-<div  align="center">
+<img src="https://github.com/CC-Ming/Story/assets/151418966/c7e848f9-6e95-421a-a830-524af9f52222" width = "600" height = "337" alt="游戏胜利界面" align=center />
+
+<img src="https://github.com/CC-Ming/Story/assets/151418966/d30a5c57-d504-4b55-b07e-09c2f39df621" width = "600" height = "337" alt="信封界面" align=center />
 
