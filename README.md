@@ -9,7 +9,7 @@
 文件路径在head.h里的最后两个宏里修改：
 ```
 #define LETTER L"resources//str_en.txt"		//文字加载文件
-#define MAP L"resources//map.txt"			    //地图加载文件
+#define MAP L"resources//map.txt"  //地图加载文件
 ```
 
 map的数据格式，可参照文件里的格式进行自定义：
