@@ -9,7 +9,7 @@
 文件路径在head.h里的最后两个宏里修改：
 ```
 #define LETTER L"resources//str_en.txt"  //文字加载文件
-#define MAP L"resources//map.txt"  //地图加载文件
+#define MAP L"resources//map.txt"      //地图加载文件
 ```
 
 map的数据格式，可参照文件里的格式进行自定义：
@@ -21,19 +21,19 @@ map的数据格式，可参照文件里的格式进行自定义：
 
 其他游戏参数设置，在head.h里都有标注：
 ```
-#define WINLEN 800  //窗口长度
-#define WINWID 450  //窗口宽度
-#define BORDER 60  //边界宽度
-#define TC1 RED  //未被访问过的点的颜色
-#define TC2 BLUE  //已被访问过的点的颜色
-#define RADIUS 10  //圆形半径
-#define EPS 1  //最小精度
-#define LIFE 100  //角色初始生命值
-#define INF 10000000  //无穷
-#define MAX_PATH 200  //最多可以显示的路径长度（含箭头和空格符号的长度
-#define MAX_BUTTON 10  //一个页面的最多按钮数量
-#define BUTTON_W 120  //默认按钮宽度
-#define BUTTON_H 35  //默认按钮高度
+#define WINLEN 800		//窗口长度
+#define WINWID 450		//窗口宽度
+#define BORDER 60		//边界宽度
+#define TC1 RED			//未被访问过的点的颜色
+#define TC2 BLUE		//已被访问过的点的颜色
+#define RADIUS 10		//圆形半径
+#define EPS 1			//最小精度
+#define LIFE 100		//角色初始生命值
+#define INF 10000000	//无穷
+#define MAX_PATH 200	//最多可以显示的路径长度（含箭头和空格符号的长度
+#define MAX_BUTTON 10	//一个页面的最多按钮数量
+#define BUTTON_W 120	//默认按钮宽度
+#define BUTTON_H 35		//默认按钮高度
 ```
 
 如果地图显示效果比较乱，可以在world.h里根据情况调节以下参数：
@@ -62,9 +62,11 @@ wstring volume[3] = { L"180",L"600",L"80" };
 
 # 游戏界面截图：
 
-![image](https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9){:height="50%" width="50%"}
+<img src="https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9" width = "300" height = "200" alt="图片名称" align=center />
 
-![image](https://github.com/CC-Ming/Story/assets/151418966/c7e848f9-6e95-421a-a830-524af9f52222){:height="50%" width="50%"}
+![image](https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9)
 
-![image](https://github.com/CC-Ming/Story/assets/151418966/d30a5c57-d504-4b55-b07e-09c2f39df621){:height="50%" width="50%"}
+![image](https://github.com/CC-Ming/Story/assets/151418966/c7e848f9-6e95-421a-a830-524af9f52222)
+
+![image](https://github.com/CC-Ming/Story/assets/151418966/d30a5c57-d504-4b55-b07e-09c2f39df621)
 
