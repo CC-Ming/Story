@@ -9,7 +9,7 @@
 文件路径在head.h里的最后两个宏里修改：
 ```
 #define LETTER L"resources//str_en.txt"  //文字加载文件
-#define MAP L"resources//map.txt"      //地图加载文件
+#define MAP L"resources//map.txt"        //地图加载文件
 ```
 
 map的数据格式，可参照文件里的格式进行自定义：
@@ -61,12 +61,11 @@ wstring volume[3] = { L"180",L"600",L"80" };
 ```
 
 # 游戏界面截图：
+<div  align="center">
+<img src="https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9" width = "533 height = "300" alt="主菜单" align=center />
 
-<img src="https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9" width = "300" height = "200" alt="图片名称" align=center />
+<img src="https://github.com/CC-Ming/Story/assets/151418966/c7e848f9-6e95-421a-a830-524af9f52222" width = "533" height = "300" alt="游戏胜利界面" align=center />
 
-![image](https://github.com/CC-Ming/Story/assets/151418966/e87ab69d-c5d9-4c7e-a6ec-ab853a9ba1f9)
-
-![image](https://github.com/CC-Ming/Story/assets/151418966/c7e848f9-6e95-421a-a830-524af9f52222)
-
-![image](https://github.com/CC-Ming/Story/assets/151418966/d30a5c57-d504-4b55-b07e-09c2f39df621)
+<img src="https://github.com/CC-Ming/Story/assets/151418966/d30a5c57-d504-4b55-b07e-09c2f39df621" width = "533" height = "300" alt="信封界面" align=center />
+<div  align="center">
 
