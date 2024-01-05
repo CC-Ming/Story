@@ -28,24 +28,12 @@ public:
 
 void Button::check_mouseover(int mouseX, int mouseY)
 {
-
-    //bool flag = is_mouseover;
     is_mouseover = (mouseX >= x && mouseX <= x + width && mouseY >= y && mouseY <= y + height);
     if (is_mouseover)
     {
-        //if (flag != is_mouseover)
-        //{
-        //    BeginBatchDraw();
-        //    draw(BLACK);
-        //}
         scale = 0.9f;
     }
     else scale = 1.0f;
-    //if (flag != is_mouseover || is_mouseover)
-    //{
-    //    draw();
-    //    EndBatchDraw();
-    //}
 }
 
 bool Button::check_click(int mouseX, int mouseY, USHORT message)
